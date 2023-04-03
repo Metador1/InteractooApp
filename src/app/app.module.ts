@@ -13,6 +13,7 @@ import { Routes } from '@angular/router';
 
 
 const appRoutes:Routes = [
+  { path: '/', component: LandingPageComponent },
   { path: '', component: LandingPageComponent },
   { path: 'menu', component: MenuPrincipalComponent}
 ];

@@ -26,7 +26,7 @@ export class LandingPageComponent {
     for (var i = 0; i < this.Users.length; i++ ){
       if ( this.usu == this.Users[i].usuario && this.cont == this.Users[i].contrasenia){
           console.log('Es el usurio!');
-          this.router.navigate(['/menu']);
+          this.router.navigate(['/', 'menu']);
       }
     }
   }
